@@ -1,0 +1,59 @@
+name: clean_architecture_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0-262.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  #state management
+  flutter_bloc: ^8.1.2
+
+  #comparing dart objects
+  equatable: ^2.0.5
+
+  #service locator
+  get_it: ^7.6.0
+
+  #dateFormat
+  intl: ^0.18.1
+
+  #Database
+  floor: ^1.4.2
+
+  #make request to api
+  retrofit: ^4.0.1
+
+  #hooks
+  flutter_hooks: ^0.18.3
+
+  #cached image
+  cached_network_image: ^3.2.0
+
+
+  dio: ^5.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  retrofit_generator: ^7.0.8
+  floor_generator: ^1.4.2
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+        - asset: assets/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Muli-Light.ttf
+          weight: 300
